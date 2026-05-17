@@ -1,4 +1,4 @@
-// swift-tools-version: 5.3
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -6,7 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "NbmapNavigation",
-            targets: ["NbmapNavigation","NbmapCoreNavigation","Nbmap","Turf"]
+            targets: ["NbmapNavigation","NbmapCoreNavigation","Nbmap","NBTurf"]
         )
     ],
     dependencies: [],
@@ -27,8 +27,8 @@ let package = Package(
             checksum: "e19a1e0a3a92344fca69bb319f8eecae79c4e2d94b36f9993d791e06480fd7d2"
         ),
         .binaryTarget(
-            name: "Turf",
-            url: "https://github.com/nextbillion-ai/nextbillion-turf-ios/releases/download/3.0.1/Turf.xcframework.zip",
+            name: "NBTurf",
+            url: "https://github.com/nextbillion-ai/nextbillion-turf-ios/releases/download/3.0.1/NBTurf.xcframework.zip",
             checksum: "1302f517c75d356137430a15be7890686a23ac247501f46d03ba9fe972f56623"
         )
     ]
