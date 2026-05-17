@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "NBTurf",
             url: "https://github.com/nextbillion-ai/nextbillion-turf-ios/releases/download/3.0.1/NBTurf.xcframework.zip",
-            checksum: "1302f517c75d356137430a15be7890686a23ac247501f46d03ba9fe972f56623"
+            checksum: "086e1ca86c2ba5e3e5b8bdd6811d5bebd26653aa2033bc98da0a7d21dcc3c7a3"
         )
     ]
 )
