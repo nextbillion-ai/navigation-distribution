@@ -13,18 +13,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NbmapNavigation",
-            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.2/NbmapNavigation.xcframework.zip",
-            checksum: "bcdf6e0872cde53fe1c356782213de4b027710e94ae21459d2982d5b93d297e0"
+            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.3/NbmapNavigation.xcframework.zip",
+            checksum: "2bd1417b4908ae9a4a75c3663704d68c3ea7c353c404f339d8d32dceb1a19bd8"
         ),
         .binaryTarget(
             name: "NbmapCoreNavigation",
-            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.2/NbmapCoreNavigation.xcframework.zip",
-            checksum: "a452f48355c71e6b10398bb8a26141bb2d586aae21b8a5e97e9edbcc536fc0ae"
+            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.3/NbmapCoreNavigation.xcframework.zip",
+            checksum: "78cb35dd85fa7fe083406dc98e73db9b3b4d741e6a80b6f0b29fa5c5fe6d78b1"
         ),
         .binaryTarget(
             name: "Nbmap",
-            url: "https://github.com/nextbillion-ai/nextbillion-map-ios/releases/download/2.3.0/Nbmap.xcframework.zip",
-            checksum: "7825293f4d76d5d9a79cbc921a7186bff913c64e3bbd08d1fff5a18342559c0b"
+            url: "https://github.com/nextbillion-ai/nextbillion-map-ios/releases/download/2.3.1/Nbmap.xcframework.zip",
+            checksum: "916a867a99b805fa824269378ff4983284cfbec0146f88aa477f66e66c39996e"
         ),
         .binaryTarget(
             name: "Turf",
