@@ -13,12 +13,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NbmapNavigation",
-            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.5/NbmapNavigation.xcframework.zip",
+            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.6/NbmapNavigation.xcframework.zip",
             checksum: "29c0e1efdc69e5ffc7926d02a958aa1ea0de6eb64f39572f878136afa8fdc147"
         ),
         .binaryTarget(
             name: "NbmapCoreNavigation",
-            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.5/NbmapCoreNavigation.xcframework.zip",
+            url: "https://github.com/nextbillion-ai/nextbillion-navigation-ios/releases/download/4.1.6/NbmapCoreNavigation.xcframework.zip",
             checksum: "893694d0f297c3071a36a090a40ea225e922d414433e1f47b8bbd13b0dc3e54a"
         ),
         .binaryTarget(
